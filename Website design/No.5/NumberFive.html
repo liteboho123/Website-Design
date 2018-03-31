@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<style type="text/css">
+
+.curtains > li{
+position: fixed;
+display: block;
+top: 0px;
+left: 0px;
+width: 100%;
+min-height: 100%;
+overflow: hidden;
+box-shadow: 0px 25px 100px 25px rgba(0, 0, 0, 0.5);
+color: white;
+}
+
+</style>
+
+<style type="text/css">
+
+html {
+height: 100%;
+overflow-x: hidden;
+}
+
+* {
+-moz-box-sizing: border-box;
+text-rendering: optimizelegibility;
+}
+
+.curtains {
+width: 100%;
+z-index: 1;
+position: relative;
+padding
+}
+</style>
+
+
+
+<style type="text/css">
+
+.cover, .slide {
+
+background-color: blue;
+
+}
+
+.cover {
+background-positon: center center;
+background-repeat: no-repeat;
+background-size: cover
+}
+
+</style>
+
+<style type="text/css">
+
+.curtains li.hidden {
+opacity: 0px;
+display: none;
+}
+
+</style>
+
+
+
+<style type="text/css">
+
+.slide-one .next-slide-btn {
+background: rbg(255, 255, 255) no-repeat scroll center center / 100% auto transparent;
+position: absolute;
+width: 25px;
+height: 25px;
+bottom: 25px;
+left: 50%;
+margin-left: -12.5px;
+text-indent: -9999em;
+color: white;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<ol class="curtains">
+ 
+<li class="cover slide-one active current" style="height: 673px; z-index: 999; margin-top: 0px;" data-height="673" data-position="0">
+
+<div style="margin: 50% auto auto auto; position: fixed; width: 100%; height: 100px; text-align: center; font-size: 78px;">
+<header> Hello
+</header>
+</div>
+
+<a class="icn icn-downarrow next-slide-btn" href="#slide-two">click here</a>
+
+</li>
+
+<li id="slide-two" class="cover slide-two" style="height: 673px; z-index: 998; margin-top: 0px;" data-height="673" data-position="673">
+
+<div style="margin: 50% auto auto auto; position: fixed; width: 100%; height: 100px; text-align: center; font-size: 78px;">
+<header> My name 
+</header>
+</div>
+
+</li>
+
+<li class="cover slide-three hidden" style="height: 673px; z-index: 997; margin-top: 0px;" data-height="673" data-position="1346">
+
+<div style="margin: 50% auto auto auto; position: fixed; width: 100%; height: 100px; text-align: center; font-size: 78px;">
+<header> is
+</header>
+</div>
+
+</li>
+
+<li class="cover slide-four hidden" style="height: 673px; z-index: 996; margin-top: 0px;" data-height="673" data-position="2019">
+
+<div style="margin: 50% auto auto auto; position: fixed; width: 100%; height: 100px; text-align: center; font-size: 78px;">
+<header> Mpoetsi  
+</header>
+</div>
+
+</li>
+
+</ol>
+
+<script src="js/jquery-1.js" type="text/javascript"></script>
+
+<script src="js/curtain.js" type="text/javascript"></script>
+
+<script src="js/fittext.js" type="text/javascript"></script>
+
+<script src="js/fitvid.js" type="text/javascript"></script>
+
+<script src="js/jquery.js" type="text/javascript"></script>
+
+<script src="js/svgeezy.js" type="text/javascript"></script>
+
+<script src="js/jquery_002.js" type="text/javascript"></script>
+
+<script src="js/application.js" type="text/javascript"></script>
+
+
+</body>
+
+</html>
